@@ -23,9 +23,21 @@
 
   * Cross Entropy Loss
 
-    - 두 확률 분포의 차이를 구하기 위해서 사용, 실제 데이터의 확률 분포와, 학습된 모델이 계산한 확률 분포의 차이 
+    - 두 확률 분포의 차이를 구하기 위해서 사용, 실제 데이터의 확률 분포와 학습된 모델이 계산한 확률 분포의 차이 
   
 ![image](https://user-images.githubusercontent.com/61686244/134469365-719129c8-9f58-44aa-b072-f2caf7329f14.png)
 
 ![image](https://user-images.githubusercontent.com/61686244/134469698-60133730-cbf8-48ff-8ad8-8541dd7217d1.png)
+
+ * Categorical Cross Entropy Loss
+  - Softmax Activation 뒤에 Cross Entropy Loss를 붙인 형태로 사용(Softmax Loss라고도 불림)
+  - Multi Class Classificastion에 사용
+
+![image](https://user-images.githubusercontent.com/61686244/134470226-6cf52f6c-1ff8-463a-99fa-f61625d9c64f.png)
+
+ * Binary Cross Entropy Loss
+  - Sigmoid Activation 뒤에 Cross Entropy Loss를 붙인 형태로 사용
+  - Multi Label Calssification에 사용 
+
+![image](https://user-images.githubusercontent.com/61686244/134470333-6f20bfb9-a259-477b-a733-90b6272e613d.png)
 
